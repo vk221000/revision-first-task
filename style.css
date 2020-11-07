@@ -1,0 +1,111 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#left-content{
+	margin-left: 10px;
+	
+}
+#logo{
+	background-color: black;
+	margin: 0px;
+	color: white;
+	padding: 20px;
+	font-size: 180%;
+	font-weight: 200%;
+}
+#logo span{
+	color: orange;
+	font-size: 150%;
+	font-weight: 900;
+}
+#nav {
+	background-color: gray;
+}
+#nav ul{
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+#nav ul li{
+	float: left;
+	background-color: gray;
+	padding: 10px 10px 10px 5px;
+	border-right: 2px solid black;
+}
+#nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+#left-content{
+	float: left;
+	width: 65%;
+	
+}
+#left-content:after{
+	overflow: hidden;
+}
+#right-content{
+	float: right;
+	width: 27%;
+	background-color: gray;
+	padding: 0px 0px 150px 10px;
+
+}
+#links ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.border-bottom{
+	border-bottom: 1px solid black;
+}
+#links ul li {
+	padding: 5px;
+}
+#links ul li a{
+	color:orange;
+	text-decoration: none;
+}
+
+
+.left p a{
+	text-decoration: none;
+	color: orange;
+}
+.content{
+	overflow: hidden;
+}
+.content a{
+	text-decoration: none;
+	color: orange;
+}
+.content img{
+	padding:25px 10px 0px 0px;
+}
+.width{
+	width: 20%;
+}
+.width1{
+	width: 75%;
+}
+.left{
+	float: left;
+}
+#wrapper{
+	overflow: hidden;
+}
+#footer{
+	background-color: black;
+	padding: 15px;
+	text-align: center;
+}
+#footer div{
+	color: white;
+}
+#footer div a{
+	text-decoration: none;
+	color: orange;
+}
